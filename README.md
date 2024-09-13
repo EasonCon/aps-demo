@@ -14,5 +14,5 @@ APS production scheduling algorithm demo, including regularized production sched
 *	Regarding the scheduling part:
 	*	In scheduler.py, the sorting rules for tasks and the rules for process-resource allocation are defined. Running scheduler.py will yield the scheduling results based on the rules.
 	*	The opt.py file focuses on optimizing the task sequence, with the objective function set to maximize the average load of equipment and minimize the delay in delivery of scheduling objects. Running opt.py will give the optimization results.
-	*	For the selected optimization library: Pymoo, the main algorithm used is NSGA2. For reference, see here.
+	*	For the selected optimization library: Pymoo, the main algorithm used is NSGA2. For reference, see [here](https://pymoo.org/case_studies/portfolio_allocation.html).
 *	The directories output/ and opt_out/ respectively output the process details, resource view, and task view in Excel Gantt charts.
